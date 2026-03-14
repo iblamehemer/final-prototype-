@@ -1,0 +1,64 @@
+{
+  "feature_cols": [
+    "Campaign_Type_enc",
+    "Channel_Used_enc",
+    "Target_Audience_enc",
+    "Location_enc",
+    "Customer_Segment_enc",
+    "Language_enc",
+    "Duration_Days",
+    "Acquisition_Cost",
+    "Clicks",
+    "Impressions",
+    "Conversion_Rate"
+  ],
+  "cat_cols": [
+    "Campaign_Type",
+    "Channel_Used",
+    "Target_Audience",
+    "Location",
+    "Customer_Segment",
+    "Language"
+  ],
+  "num_cols": [
+    "Duration_Days",
+    "Acquisition_Cost",
+    "Clicks",
+    "Impressions",
+    "Conversion_Rate"
+  ],
+  "targets": [
+    "ROI",
+    "Engagement_Score",
+    "CTR"
+  ],
+  "results": {
+    "ROI": {
+      "best_model": "LinearRegression",
+      "r2": -0.0002,
+      "range": [
+        2.0,
+        8.0
+      ],
+      "mean": 5.0060614
+    },
+    "Engagement_Score": {
+      "best_model": "LinearRegression",
+      "r2": 0.0001,
+      "range": [
+        1.0,
+        10.0
+      ],
+      "mean": 5.47484
+    },
+    "CTR": {
+      "best_model": "RandomForest",
+      "r2": 0.9999,
+      "range": [
+        1.0054,
+        96.9185
+      ],
+      "mean": 14.091838939999999
+    }
+  }
+}

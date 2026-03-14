@@ -1,0 +1,45 @@
+{
+  "Campaign_Type": {
+    "Display": 0,
+    "Email": 1,
+    "Influencer": 2,
+    "Search": 3,
+    "Social Media": 4
+  },
+  "Channel_Used": {
+    "Email": 0,
+    "Facebook": 1,
+    "Google Ads": 2,
+    "Instagram": 3,
+    "Website": 4,
+    "YouTube": 5
+  },
+  "Target_Audience": {
+    "All Ages": 0,
+    "Men 18-24": 1,
+    "Men 25-34": 2,
+    "Women 25-34": 3,
+    "Women 35-44": 4
+  },
+  "Location": {
+    "Chicago": 0,
+    "Houston": 1,
+    "Los Angeles": 2,
+    "Miami": 3,
+    "New York": 4
+  },
+  "Customer_Segment": {
+    "Fashionistas": 0,
+    "Foodies": 1,
+    "Health & Wellness": 2,
+    "Outdoor Adventurers": 3,
+    "Tech Enthusiasts": 4
+  },
+  "Language": {
+    "English": 0,
+    "French": 1,
+    "German": 2,
+    "Mandarin": 3,
+    "Spanish": 4
+  }
+}
